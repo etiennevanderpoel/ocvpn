@@ -10,6 +10,11 @@ Features:
     Check VPN Status: Check if a VPN connection is active and if the associated network interface is up.
     Customisable: the scripts *ocvpnup* and *ocvpndown* can be edited for a specific user, VPN group, and VPN URL, so that you only need to call these scripts (without options) open and close the VPN connection.
     Network interface management: attempts to do a clean VPN setup and teardown.
+    The latest (2023+) versions of VPN servers also use 2FA. This script handles this as far as it could be tested.
+
+Note on prompts:
+
+    The script shows some output, but will not prompt you for a password or the 2FA input. It may prompt you for your *sudo* password. 
 
 Usage:
 
@@ -20,4 +25,4 @@ Usage:
     -g [group]: Specify the VPN group name
     -n [url]: Specify the VPN server URL
 
-This script should be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
+These script should (hopefully) be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
