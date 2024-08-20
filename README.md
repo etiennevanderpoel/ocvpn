@@ -5,12 +5,12 @@ These script(s) are wrappers to openconnect, openvpn, and vpnc-script, It handle
 
 Features:
 
-    Open VPN Connection: Establish a secure VPN connection using openconnect, with 'support' for two-factor authentication (2FA).
-    Close VPN Connection: Safely close an active VPN connection and restore network settings.
-    Check VPN Status: Check if a VPN connection is active and if the associated network interface is up.
-    Customisable: the scripts *ocvpnup* and *ocvpndown* can be edited for a specific user, VPN group, and VPN URL, so that you only need to call these scripts (without options) open and close the VPN connection.
-    Network interface management: attempts to do a clean VPN setup and teardown.
-    The latest (2023+) versions of VPN servers also use 2FA. This script handles this as far as it could be tested.
+    Opem: Establish a secure VPN connection using openconnect. Works where 2FA is required as well.
+    Close: Safely close an active VPN connection and restore network settings.
+    Status: Check if a VPN connection is active and if the associated network interface is up.
+    Customisable: All 3 scripts can be edited for a specific user, VPN group, and VPN URL.
+        Ideally you should edit *ocvpnup* and *ocvpndown*, so that you only need to run these two scripts.
+    Cleanup: attempts to do a clean VPN setup and teardown.
 
 Note on prompts:
 
@@ -25,4 +25,4 @@ Usage:
     -g [group]: Specify the VPN group name
     -n [url]: Specify the VPN server URL
 
-These script should (hopefully) be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
+These scripts should (hopefully) be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
