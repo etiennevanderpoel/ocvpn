@@ -19,6 +19,7 @@ These script(s) are wrappers to openconnect, openvpn, and vpnc-script, It handle
 ### Usage:
 
 ocvpn 
+
     -o: Open a VPN connection
     -c: Close the VPN connection
     -s: Check the current VPN status
