@@ -27,7 +27,7 @@ ocvpn
     -g [group]: Specify the VPN group name
     -n [url]: Specify the VPN server URL
 
-These scripts should (hopefully) be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
+These scripts should (hopefully) be useful to Linux users who frequently need to connect to a VPN service (that optionally requires 2FA).
 
 (Based on a script written by Jeff Stern - [https://sites.socsci.uci.edu/~jstern/uci_vpn_ubuntu/ubuntu-openconnect-uci-instructions.html](https://sites.socsci.uci.edu/~jstern/uci_vpn_ubuntu/ubuntu-openconnect-uci-instructions.html))
 
