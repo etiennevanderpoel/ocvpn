@@ -58,4 +58,4 @@ To close the VPN, run:
     ocvpndown
 
 
-If something goes wrong, or the connection takes too long to establish, stop (ctr-C) the script, and read the */tmp/oclog.txt* log file.
+If something goes wrong, or the connection takes too long to establish, stop (ctrl-C) the script, and read the */tmp/oclog.txt* log file.
