@@ -1,6 +1,6 @@
 # ocvpn
 
-Linux VPN client management script using OpenConnect and OpenVPN
+Linux VPN client management *bash* script using OpenConnect and OpenVPN
 
 These script(s) are wrappers to openconnect, openvpn, and vpnc-script, It handles the details in the background. Users can open, close, and check the status of a VPN connection with a few command-line options, or with another set of very simple wrapper scripts (ocvpnup and ocvpndown).
 
