@@ -31,13 +31,13 @@ These scripts should (hopefully) be useful to Linux users who frequently need to
 
 ## For novice Linux users
 
-You need to place these scripts somewhere in your $PATH (such as ~/.local/bin). Rename (or copy) them to ocvpn, ocpnup, ocvpndown (without the .sh extension). Do 
+You need to place these scripts somewhere in your $PATH (such as ~/.local/bin). Rename (or copy) them to ocvpn, ocpnup, ocvpndown (without the .sh extension). Do the following in a terminal:
 
 	chmod +x ocvpn
-	chmod +x  ocvpnup
+	chmod +x ocvpnup
 	chmod +x ocvpndown
 
-or change the permissions via the properties window to make these executable.
+or change the *permissions* via the *File Properties* window to make these executable.
 
 Edit the ocvpnup script:
 
@@ -49,7 +49,7 @@ In a terminal run:
 
     ocvpnup
 
-This may prompt you for your sudo password. After that it won't show any prompts. Type (or copy-paste) your password. Wait for the 2FA PIN (if there is one). Type that. After 30 seconds max, you should get a response to show you are connected.
+This may prompt you for your sudo password. After that you won't see any prompts. Type (or copy-paste) your password. Wait for the 2FA PIN (if there is one). Type that. After 30 seconds max, you should get a response to show you are connected.
 
 To close the VPN, run:
 
