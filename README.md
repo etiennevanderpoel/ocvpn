@@ -28,3 +28,32 @@ These script(s) are wrappers to openconnect, openvpn, and vpnc-script, It handle
 These scripts should (hopefully) be useful to Linux users who frequently need to connect to a VPN service that requires 2FA.
 
 (Based on a script written by Jeff Stern - [https://sites.socsci.uci.edu/~jstern/uci_vpn_ubuntu/ubuntu-openconnect-uci-instructions.html](https://sites.socsci.uci.edu/~jstern/uci_vpn_ubuntu/ubuntu-openconnect-uci-instructions.html))
+
+## For novice Linux users
+
+You need to place these scripts somewhere in your $PATH (such as ~/.local/bin). Rename (or copy) them to ocvpn, ocpnup, ocvpndown (without the .sh extension). Do 
+
+	chmod +x ocvpn
+	chmod +x  ocvpnup
+	chmod +x ocvpndown
+
+or change the permissions via the properties window to make these executable.
+
+Edit the ocvpnup script:
+
+    USER should be your network username
+    VPNGROUP should be the VPN group name - ask your IT/ICT people
+    VPNURL should be VPN url - often something like "https://vpn.company.com" - ask your IT/ICT people
+
+In a terminal run:
+
+    ocvpnup
+
+This may prompt you for your sudo password. After that it won't show any prompts. Type (or copy-paste) your password. Wait for the 2FA PIN (if there is one). Type that. After 30 seconds max, you should get a response to show you are connected.
+
+To close the VPN, run:
+
+    ocvpndown
+
+
+
