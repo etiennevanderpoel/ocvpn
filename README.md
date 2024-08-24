@@ -2,7 +2,7 @@
 
 Linux VPN client management *bash* script using OpenConnect and OpenVPN
 
-These script(s) are wrappers to openconnect, openvpn, and vpnc-script, It handles the details in the background. Users can open, close, and check the status of a VPN connection with a few command-line options, or with another set of very simple wrapper scripts (vpnocup and vpnocdown) that you only need edit once for each VPN, so that you can run these without having to use options.
+These script(s) are wrappers to openconnect, openvpn, and vpnc-script. It handles the details in the background. You can open, close, and check the status of a VPN connection with a few command-line options, or with another set of very simple wrapper scripts (vpnocup and vpnocdown) that you only need edit once for each VPN, so that you can run these without having to use the options.
 
 ### Features:
 
